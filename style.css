@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #83c3ff;
+}
+
+.all-elements{
+    background-color: white;
+    border-radius: 25px;
+    width: 500px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+footer>div{
+    font-weight: 600;
+    color: white;
+    margin-top: 25px;
+}
+
+.h3 {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #d7f5ff;
+    color: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+.h3>p{
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px 15px;
+    font-size: 1.4rem;
+    color: #3596b8;
+}
+.h3>h3{
+    text-align: right;
+    margin: 10px 15px;
+    font-size: 2.1rem;
+    color: black;
+}
+
+.ele {
+    color: #054c2c;
+    cursor: pointer;
+    background-color:  #ccf2ff;
+    padding: 15px 0;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+
+.ele:hover {
+    box-shadow: 0 0 8px 3px #729b9729;
+}
+
+.all {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+}
+
+.all>#ENTER {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    color: black;
+    background-color: #96ffd0;
+}
+
+.ele2{
+    background-color: #82cfe8;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.ids {
+    position: relative;
+    align-self: center;
+}
+
+i {
+    color: #c97979;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.4s;
+    opacity: 0.7;
+}
+i:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.github{
+    font-size: 2rem;
+    color:green;
+}
+
+.elehover {
+    background-color: #7ccbe6;
+    transform: scale(1.04);
+}
+
+@media(max-width:700px) {
+    .h3 {
+        width: 85%;
+        margin: auto;
+
+    }
+
+    .all-elements {
+        margin: auto;
+        width: 85%;
+    }
+}
+
+@media (max-width:500px) {
+    .h3 {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15px;
+
+    }
+    .h3>h3{
+        font-size: 1.7rem;
+    }
+    .h3>p{
+        font-size: 1.3rem;
+    }
+    .all-elements {
+        margin: auto;
+        width: 90%;
+        padding: 30px 17px ;
+    }
+    .all {
+        width: 100%;
+        gap: 5px;
+    }
+    .ele{
+        font-size: 1rem;
+    }
+}
