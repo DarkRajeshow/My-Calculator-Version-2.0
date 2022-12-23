@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    overflow: hidden;
+    
 }
 
 footer>div{
@@ -43,6 +43,7 @@ footer>div{
 }
 .h3>h3{
     text-align: right;
+    overflow: hidden;
     margin: 10px 15px;
     font-size: 2.1rem;
     color: black;
